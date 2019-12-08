@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>OI BNS Launcher</title>
+  </head>
+  <body>
+    <div class="container cf">
+      <div class="brand-logo"></div>
+      <div class="main">
+        <div class="title-banner">
+          <ul>
+            <li>Welcome to</li>
+            <li class="brand">OI BNS Launcher</li>
+          </ul>
+        </div>
+        <p>Lauch Apps by using their <br />Blockstack ID.</p>
+        <div class="form">
+          <input
+            id="blockstack-id"
+            class="form-blockstack-id"
+            type="text"
+            placeholder="e.g. oitimesheet.id.blockstack"
+            name="blockstack-id"
+          />
+        </div>
+        <button id="launch" type="submit" class="btn-launch">Launch</button>
+        <div id="loader" class="loader"></div>
+        <div id="error" class="error"></div>
+        <div class="developers">
+          <small
+            >Developers, please read
+            <a
+              href="https://forum.blockstack.org/t/towards-app-launch-via-bns/9551/2"
+              target="_blank"
+              ref="noopener noreferrer"
+              >the forum post</a
+            >
+            about all details and questions.
+          </small>
+        </div>
+      </div>
+    </div>
+    <script
+      src="./assets/js/blockstack.js"
+      integrity="sha384-UnkhaTA3XqTl/a79lTWO+C85bbXyM8IIUYtSLfrkkNQJcCxocVZv8nHaMzrvS9ZH"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
